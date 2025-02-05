@@ -1,0 +1,48 @@
+body {
+
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+}
+
+.start {
+
+    background-color: lightpink;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.start:hover {
+
+    background-color: deeppink;
+    color: white;
+}
+
+#contagem p {
+    font-size: 15px;  
+    line-height: 1; 
+    font-weight: bold; 
+    text-align: center; 
+    margin: 0px 0; 
+}
+
+.conteudo {
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;     
+    justify-content: center;
+
+    border: 5px solid hotpink;  
+    padding: 20px;           
+    border-radius: 10px;      
+    width: fit-content;       
+    margin: 20px auto;        
+    background-color: bisque; 
+}
