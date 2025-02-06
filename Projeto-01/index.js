@@ -12,7 +12,7 @@ function iniciarContagem() {
                 <p> Passando para lembrá-lo que eu te amo! </p> <br>
                 <p> Seja sempre a pessoa cativante que é. Assim, você conquista o mundo. </p>
             `;
-
+            
             pararContagem();
         }
 
