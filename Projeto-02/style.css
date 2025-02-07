@@ -1,0 +1,91 @@
+/* Estilização do body. */
+
+body {
+    align-items: center; /* Alinha os elementos verticalmente. */
+    display: flex; /* Permite que os elementos sejam organizados de maneira flexível. */
+    font-family: Arial, Helvetica, sans-serif; /* Altera a fonte. */
+    height: 100vh; /* Define a altura do body para ser 100% igual a altura da janela de visualização. */
+    justify-content: center; /* Alinha os elementos horizontalmente. */
+    margin: 0; /* Remove qualquer espaçamento padrão. */
+}
+
+.container {
+    background-color: aliceblue;
+    border: 3px, solid, black;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+p {
+    font: medium;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+/* Estilização do formulário. */
+
+form {
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+fieldset {
+    align-items: center;
+    background-color:beige;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Alinha os itens um abaixo do outro. */
+    text-align: center;
+}
+
+legend {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+
+}
+
+label, input, button {
+    margin-bottom: 2px; /* Espaçamento entre os elementos. */
+}
+
+label {
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    border: 1px solid gray; 
+    border-radius: 5px;
+    height: 20px; /* Define a altura */
+}
+
+button {
+    background-color:slateblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+    width: 100px;
+}
+
+button:hover {
+    background-color:darkblue;
+}
+
+
+
+
+
+
+
+
