@@ -5,7 +5,7 @@
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "style.css">
-    <title> Projeto 02 </title>
+    <title> Projeto 02: Calculadora de IMC </title>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
 
        <!-- Formulário solicitando dados do usuário. -->
 
-       <form class = "form" aria-label = "Formulário de calculo do IMC.">
+       <form onsubmit = "calcular(event)" aria-label = "Formulário de calculo do IMC.">
 
         <fieldset>
 
@@ -36,11 +36,17 @@
             <label for = "peso"> Peso (kg) </label>
             <input type = "number" id = "peso"> <br>
 
-            <button type = "submit"> Calcular </button>
+            <button type = "submit" onclick = "calcular(event)"> Calcular </button>
 
         </fieldset>
 
        </form>
+
+       <div class = "resultado">
+
+        <p id = "resultado"> Em casos de peso baixo, sobrepreso e obesidade, busque ajuda! </p>
+
+       </div>
 
     </div>
     
