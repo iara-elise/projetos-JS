@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    align-items: center; 
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    justify-content: center;
+
+    /* align-items: center          -----> Alinha os elementos vesticalmente ao centro da tela. */
+    /* display: flex                -----> Ativa o Flexbox, permitindo organizar os elementos facilmente. */
+    /* height: 100vh                -----> Define a altura do body como 100% da altura da tela. */
+    /* justify-content: center      -----> Alinha os elementos horizontalmente ao centro da tela.*/
+}
+
+.container {
+    background-color: lightgreen;
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+
+    /* border-radius                -----> Arredonda os cantos do elemento. Quanto maior o valor, mais arredondado irá ficar. */
+    /* text-align: center           -----> Alinha os elementos inline ao centro da tela. */
+    /* padding                      -----> Adiciona um espaço interno em todos os lados do elemento. */
+}
+
+h1 {
+    font-size: 25px;
+    text-transform: uppercase;
+
+    /* font-size                    -----> Altera o tamanho da fonte. */
+    /* text-transform: uppercase    -----> Deixa o texto em maiúsculo. */
+}
+
+p {
+    font-size: 15px;
+}
+
+h1, p {
+    margin-bottom: 10px;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 2px;
+    height: 30px;
+    margin: 10px 0px;
+    padding-left: 5px;
+}
+
+button {
+    cursor: pointer;
+    border: 1.5px solid black;
+    border-radius: 3px;
+    padding: 10px 10px;
+}
+
+button:hover {
+    background-color: rgb(64, 150, 64);
+    color: white;
+    transition: 0.3s;
+}
