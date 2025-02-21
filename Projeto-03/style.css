@@ -5,7 +5,8 @@
 }
 
 body {
-    align-items: center; 
+    align-items: center;
+    color: white;
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
     height: 100vh;
@@ -18,8 +19,9 @@ body {
 }
 
 .container {
-    background-color: lightgreen;
+    background-color: rgb(103, 124, 186);
     border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
     text-align: center;
     padding: 50px;
 
@@ -44,23 +46,41 @@ h1, p {
     margin-bottom: 10px;
 }
 
-input {
+#cep {
     border: 1px solid black;
-    border-radius: 2px;
+    border-radius: 5px;
     height: 30px;
     margin: 10px 0px;
     padding-left: 5px;
+    width: 150px;
 }
 
 button {
     cursor: pointer;
     border: 1.5px solid black;
-    border-radius: 3px;
-    padding: 10px 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
 }
 
 button:hover {
-    background-color: rgb(64, 150, 64);
+    background-color: 	rgb(26, 26, 170);
     color: white;
     transition: 0.3s;
 }
+
+label {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+input {
+    border: 1.5px solid black;
+    border-radius: 5px;
+    height: 25px;
+    margin-bottom: 20px;
+    padding-left: 5px;
+    width: 250px;
+}
+
