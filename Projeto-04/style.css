@@ -6,29 +6,92 @@
 }
 
 body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 40vh;
-}
-
-h1 {
+    height: 100vh;
+    justify-content: center;
     text-align: center;
 }
 
-.inputContainer {
+input {
+    border: 1.5px solid black;
+    height: 25px;
+    padding-left: 5px;
+    width: 200px;
+}
+
+button {
+    cursor: pointer;
+    border: 1.5px solid black;
+    width: 70px;
+}
+
+.botao button {
     align-items: center;
     display: flex;
     justify-content: center;
+    gap: 2px;
+    width: 90px;
+}
+
+
+.botao button:hover {
+    background-color:rgb(205, 35, 35);
+    color: white;
+    transition: 0.3s;
+}
+
+.inputContainer button:hover {
+    background-color:rgb(131, 131, 131);
+    color: white;
+    transition: 0.3s;
+}
+
+i {
+    font-size: 20px; /* Tamanho do ícone */
+    transform: scale(0.8); /* Diminui o ícone para 80% do tamanho original */
+    margin: 0%;
+}
+
+.icone {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.inputContainer {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15px;
 }
 
 .tarefasPendentes {
     align-items: center;
+    border: 1px solid rgba(130, 130, 130, 0.500);
     display: flex;
-    justify-content: center;
-    padding: 30px;
+   font-size: 15px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
 }
 
 .tarefasCompletas {
     align-items: center;
+    border: 1px solid rgba(130, 130, 130, 0.500);
     display: flex;
-    justify-content: center;
+    font-size: 15px;
+    gap: 20px;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    max-width: 500px;
+    padding: 10px;
+    width: 100%;
 }
